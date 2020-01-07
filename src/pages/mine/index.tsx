@@ -1,14 +1,18 @@
 import Taro, {Component} from "@tarojs/taro";
-import {View} from "@tarojs/components";
+import {Text, View} from "@tarojs/components";
 
-class Home extends Component {
+class Mine extends Component {
+  config = {
+    navigationBarTitleText: '我的'
+  }
+
   render() {
     return (
       <View>
-
+        <Text>这是我的页面</Text>
       </View>
     )
   }
 }
 
-export default Home
+export default Mine
